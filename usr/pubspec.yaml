@@ -1,12 +1,12 @@
 name: couldai_user_app
-description: "A new Flutter project."
+description: "A dating app with video call, chat, and random matching features."
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 
 # The following defines the version and build number for your application.
 # A version number is three numbers separated by dots, like 1.2.43
-# followed by an optional build number separated by a +.
+# followed by an optional build number separated by a +
 # Both the version and the builder number may be overridden in flutter
 # build by specifying --build-name and --build-number, respectively.
 # In Android, build-name is used as versionName while build-number used as versionCode.
@@ -34,6 +34,12 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
+
+  # Agora SDK for video calling
+  agora_rtc_engine: ^6.2.0
+
+  # Permission handler for camera and microphone access
+  permission_handler: ^11.0.1
 
 dev_dependencies:
   flutter_test:
